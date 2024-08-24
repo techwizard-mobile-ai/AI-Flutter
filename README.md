@@ -1,83 +1,19 @@
-# AIdea - AI 聊天、协作、图像生成
+# AI FLUTTER - AI chat, collaboration, image generation
 
-[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B39727%2Fgithub.com%2Fmylxsw%2Faidea.svg?type=shield&issueType=license)](https://app.fossa.com/projects/custom%2B39727%2Fgithub.com%2Fmylxsw%2Faidea?ref=badge_shield)
-![GitHub release (by tag)](https://img.shields.io/github/downloads/mylxsw/aidea/1.0.4/total)
-![GitHub](https://img.shields.io/github/license/mylxsw/aidea)
+An APP that integrates mainstream large language models and drawing models, developed using Flutter, with completely open source code, supporting the following functions:
 
-<a href="https://trendshift.io/repositories/1013" target="_blank"><img src="https://trendshift.io/api/badge/repositories/1013" alt="mylxsw%2Faidea | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-
-一款集成了主流大语言模型以及绘图模型的 APP， 采用 Flutter 开发，代码完全开源，支持以下功能：
-
-- 支持 OpenAI 的 GPT-3.5，GPT-4 大语言模型
-- 支持 Anthropic 的 Claude instant，Claude 2.1 大语言模型
-- 支持 Google 的 Gemini Pro 以及视觉大语言模型
-- 支持国产模型：通义千问，文心一言，讯飞星火，商汤日日新，腾讯混元，百川53B，360智脑，天工，智谱，月之暗面等
-- 支持开源大模型：Yi 34B，Llama2，ChatGLM2，AquilaChat 7B，Bloomz 7B，轩辕 70B，ChatLaw，Mixtral 等，后续还将开放更多
-- 支持文生图、图生图、超分辨率、黑白图片上色、艺术字、艺术二维码等功能，支持 SDXL 1.0、Dall·E 3 等
-
-![image](https://github.com/mylxsw/aidea/assets/2330911/297bfe8e-8b26-45b3-bc03-26bc81823211)
+- Support OpenAI's GPT-3.5, GPT- 4 major language models - support Anthropic's Claude instant, Claude 2.1 Large language model - support Google's Gemini Pro and visual large language model - support domestic models: Tongyi Qianwen, Wenxin Yiyan, iFlytek Spark, Shangtang RiRi New, Tencent Hunyuan, Baichuan 53B, 360 Zhinao, Tiangong, Zhipu, Dark Side of the Moon, etc.
+- Supports open source large models: Yi 34B, Llama2, ChatGLM2, AquilaChat 7B, Bloomz 7B, Xuanyuan 70B, ChatLaw, Mixtral, etc. More will be opened in the future. Supports text-generated images, image-generated images, super-resolution, black and white image coloring, Artistic words, artistic QR codes and other functions, support SDXL 1.0, Dall·E 3, etc.
 
 
-下载体验地址：
+## Development, compilation and running environment Build a development environment to compile and package the APP. You can refer to the following article. More articles will be updated later when there is time. 
 
-https://aidea.aicode.cc
+## Private deployment If you don't want to use a hosted cloud service, you can deploy it yourself For server side
 
-开源代码：
+If you don’t want to do it yourself, you can ask me to help you deploy it. For details, please refer to [ Server generation deployment instructions]
 
-- 客户端：https://github.com/mylxsw/aidea
-- 服务端：https://github.com/mylxsw/aidea-server
-- Docker 部署：https://github.com/mylxsw/aidea-docker
-
-## 开发、编译运行环境
-
-搭建开发环境，用来编译和打包 APP，可以参考下面的文章，更多文章后面有时间了会持续更新。
-
-- [AIdea 项目开发环境部署教程（一）前端 Flutter 环境搭建](https://mp.weixin.qq.com/s/bgAIH6s7t5IREusK_WtpRg)
-
-## 私有化部署
-
-如果你不想使用托管的云服务，可以自己部署服务端，[部署请看这里](https://github.com/mylxsw/aidea-server/blob/main/docs/deploy.md)。
-
-不想自己折腾，可以找我来帮你部署，详情参考 [服务器代部署说明](https://github.com/mylxsw/aidea-server/blob/main/docs/deploy-vip.md)。
-
-## 技术交流
-
-- 微信技术交流群：
-
-    <img src="https://github.com/mylxsw/aidea/assets/2330911/0a697937-b357-4d88-bb16-c07c5517d13c" width="400"/>
-
-    如果无法加入，请添加微信号 `x-prometheus` 为好友，拉你进群。
-
-- 微信公众号
-
-    <img src="https://github.com/mylxsw/aidea-server/assets/2330911/376a3b9f-eacd-45c6-9630-39eb720ba097" width="500" />
-
-- 电报群：[点此加入](https://t.me/aideachat)
+## Technical Exchange - WeChat Technical Exchange Group:
 
 
-## APP 截图
+If you can't To join, please add WeChat ID `x-prometheus` as a friend and we will pull you into the group.
 
-亮色系
-
-![image](https://github.com/mylxsw/aidea/assets/2330911/89fc3f6f-b110-45f4-9e9a-b43a7a2c011a)
-
-暗色系
-
-![image](https://github.com/mylxsw/aidea/assets/2330911/7c0167eb-4bd3-4dcb-8b7b-a6d22cebe3ae)
-
-
-## Star History
-
-<a href="https://star-history.com/#mylxsw/aidea&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=mylxsw/aidea&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=mylxsw/aidea&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=mylxsw/aidea&type=Date" />
-  </picture>
-</a>
-
-## License
-
-MIT
-
-Copyright (c) 2023, mylxsw
